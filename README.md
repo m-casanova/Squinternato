@@ -22,5 +22,6 @@ Più segni sono utilizzati in combinazione con barre verticali, cioè _/asciicir
 ![image](images/03.jpg)
 
 Le diverse combinazioni permettono di creare anche strutture complesse.
+Per ottenere uno spazio può essere utilizzata la lettera _/s_.
 
 ![image](images/04.jpg)
