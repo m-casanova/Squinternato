@@ -177,7 +177,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -206,7 +206,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -248,7 +248,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"bevel",
+                  "join":"round",
                   "miter_limit":2
                 }
               }
@@ -434,7 +434,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -463,7 +463,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -500,7 +500,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -529,7 +529,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -566,7 +566,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -595,7 +595,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -800,7 +800,7 @@
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -838,7 +838,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -876,7 +876,7 @@
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -914,7 +914,7 @@
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -933,7 +933,7 @@
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -952,7 +952,7 @@
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -990,7 +990,7 @@
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1009,7 +1009,7 @@
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1066,7 +1066,7 @@
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1180,7 +1180,7 @@
       {
         "name":"U",
         "unicode":"0055",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1199,7 +1199,7 @@
       {
         "name":"V",
         "unicode":"0056",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1401,7 +1401,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1439,7 +1439,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1477,7 +1477,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1515,7 +1515,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1667,7 +1667,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1686,7 +1686,7 @@
       {
         "name":"p",
         "unicode":"0070",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1705,7 +1705,7 @@
       {
         "name":"q",
         "unicode":"0071",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1743,19 +1743,11 @@
       {
         "name":"s",
         "unicode":"0073",
-        "lastModified":"2025-09-30 05:13:46",
+        "lastModified":"2025-09-30 14:42:07",
         "layers":[
           {
             "name":"Regular",
-            "advanceWidth":652,
-            "elements":[
-              {
-                "component":{
-                  "glyphName":"period"
-                },
-                "active":true
-              }
-            ]
+            "advanceWidth":652
           }
         ]
       },
@@ -1800,7 +1792,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1819,7 +1811,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1838,7 +1830,7 @@
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -1857,7 +1849,7 @@
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2025-09-30 08:27:18",
+        "lastModified":"2025-09-30 14:42:51",
         "layers":[
           {
             "name":"Regular",
@@ -2323,7 +2315,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -2363,7 +2355,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -2449,7 +2441,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -2485,7 +2477,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -2514,7 +2506,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -2550,7 +2542,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -2579,7 +2571,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -2615,7 +2607,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -2644,7 +2636,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -2983,7 +2975,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -3012,7 +3004,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -3063,7 +3055,7 @@
                 "stroke":{
                   "cap0":"round",
                   "cap1":"round",
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2,
                   "thickness":240
                 }
@@ -3108,7 +3100,7 @@
                 "stroke":{
                   "cap0":"round",
                   "cap1":"round",
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2,
                   "thickness":120
                 }
@@ -3145,7 +3137,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -3174,7 +3166,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -3253,7 +3245,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -3282,7 +3274,7 @@
                 },
                 "active":true,
                 "stroke":{
-                  "join":"round",
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -3699,8 +3691,8 @@
       "license":"This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/",
       "licenseURL":"https://openfontlicense.org/",
       "versionMajor":1,
-      "versionMinor":0,
-      "version":"Version 1.000",
+      "versionMinor":1,
+      "version":"Version 1.001",
       "codepageRange":"0000000000000000",
       "unicodeRange":"00000000000000000000000000000000",
       "embedding":"0000"
@@ -3754,7 +3746,7 @@
             "TtHinter":1,
             "TtHorizSmoothing":0,
             "TtNoSmoothing":0,
-            "TtaFamilyAlign":false,
+            "TtaFamilyAlign":0,
             "TtaHintComposites":true,
             "TtaHintingLimit":200,
             "TtaHintingRangeMax":50,
@@ -3835,7 +3827,7 @@
             "TtHinter":1,
             "TtHorizSmoothing":0,
             "TtNoSmoothing":0,
-            "TtaFamilyAlign":false,
+            "TtaFamilyAlign":0,
             "TtaHintComposites":true,
             "TtaHintingLimit":200,
             "TtaHintingRangeMax":50,
@@ -3877,7 +3869,6 @@
         }
       }
     ],
-    "searchStorage":"",
     "expressionsUpdated":true
   }
 }
