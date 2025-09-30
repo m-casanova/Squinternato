@@ -1,0 +1,209 @@
+<html>
+<title>Squinternato - OFL font to visualize manuscript structure</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@font-face {
+  font-family:"test_2"; font-style: normal;
+  src:url("ttf/Squinternato-Regular.ttf");
+}
+@font-face {
+  font-family:"test"; font-style: normal;
+  src:url("/Garamontio/font/garamontio.woff2") format("woff2-variations");
+}
+@font-face {
+  font-family:"test"; font-style: italic;
+  src:url("/Garamontio/font/garamontio_it.woff2") format("woff2-variations");
+}
+body { font-family:"test", sans-serif; font-size: 18pt;margin:0;padding:0 }
+div { margin:0; padding:0; }
+
+a { color: #06c }
+
+header { width: 100%; margin:0; padding:0 }
+header > div { width:100%; color: #fff }
+header > div.info { background: #952D1B; }
+header > div.titolo { background: #bf3922; }
+header > div > div { width: 1180px; margin: 0px auto; padding:0 }
+header div div p { margin:0;padding: 10px 10px; font-size: 14pt }
+header div div h1 { margin:0;padding:20px 10px; font-size: 64px; font-weight: 400; font-style:italic; color: #fff }
+
+section { width: 1180px; margin:0 auto 40px; padding:0 }
+article { width: 890px; margin: 0 0 0 290; padding:0 }
+article p { margin: 5px 10px; padding:0; color: #333 }
+article p.nota { font-size: 14pt; color: #444 }
+article p.nota a.refn { font-weight: 600; }
+
+
+h2 { margin:30px 10px;padding:0; font-size: 40px; font-weight: 400; color: #952D1B; font-style: italic }
+h3 { margin:20px 10px;padding:0; font-size: 32px; font-weight: 450; color: #952D1B; font-style: italic }
+h4 { margin:20px 10px;padding:0; font-size: 24px; font-weight: 500; color: #952D1B; font-style: italic }
+
+a.bia { color: #fff; font-weight: 450; text-decoration: none }
+a.bia:hover { font-weight: 500 }
+a.ref { font-size: 60%; vertical-align: super; font-weight: 700 }
+
+hr { border:0; border-bottom: 1px solid #666; margin: 20px; padding:0 }
+
+table { margin: 15px auto; padding:0; text-align:left; font-size: 16pt; border-top: 1px solid #666 }
+table th { border-bottom: 1px solid #666 }
+table td { padding: 2px 6px}
+
+.manu { font-family: "test_2"; font-weight: 400; }
+
+footer { padding:0; margin:0; width: 100%; background: #2e383d; color: #fff }
+footer > div { padding: 20px 0; margin:0 auto; width: 1180px }
+footer p { margin: 0 10px; font-size: 20px; font-weight: 450 }
+
+.feat { font-weight: 600 }
+.legg { font-weight: 200 }
+.codice { color: #666; font-size: 12pt; text-align:left; border-bottom: 1px solid #666 }
+.vsups { font-feature-settings: 'sups'; }
+.vnumr { font-feature-settings: 'numr'; }
+.vdnom { font-feature-settings: 'dnom'; }
+.vsubs { font-feature-settings: 'subs'; }
+.vfrac { font-feature-settings: 'frac'; }
+.vhlig { font-feature-settings: 'hlig'; }
+
+div.side {width: 249px; margin: 30px 0 0; padding:10px 10px 5px; float:left; border-right:1px solid #555; color: #666 }
+
+@media only screen and (max-width: 1200px) {
+ header > div > div { width: 100%; }
+ section { width: 100% }
+ article { width: 100%; margin: 0; }
+ footer > div { width: 100% }
+ div.side {display:none }
+}
+</style>
+<body>
+	<header>
+		<div class="info">
+			<div>
+				<p><a href="https://github.com/m-casanova/Squinternato" class="bia">← Github</a></p>
+			</div>
+		</div>
+		<div class="titolo">
+			<div>
+				<h1>Squinternato</h1>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="side">
+			<p>Una breve descrizione di un font sperimentale</p>
+		</div>
+		<article>
+			<h2>Per una struttura dei manoscritti</h2>
+
+			<h3>Descrizione</h3>
+
+			<p>Il carattere <i>Squinternato</i> è un esperimento per visualizzare la struttura di un manoscritto.</p>
+
+			<p>Squinternato ha metriche perfettamente compatibili con <a href="https://github.com/m-casanova/Garamontio">Garamontio</a>. Sono presenti vari pesi (Regular, News, Medium, Semibold, Bold, ExtraBold) che modificano lo spessore delle righe.</p>
+
+			<p>I numeri sono utilizzati per mostrare le curve principali. Sono utilizzati alcuni simboli:</p>
+			<p>/hyphen (-) per mostrare tratti orizzontali</p>
+			<p>/period (.) alla fine di una riga per rendere tratteggiata la riga (fogli mancanti)</p>
+			<p>Più segni sono utilizzati in combinazione con barre verticali, cioè /asciicircum (^), /underscore (_), /comma (,)</p>
+
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<th>Testo</th>
+					<th>Risultato</th>
+					<td>&nbsp;</td>
+					<th>Testo</th>
+					<th>Risultato</th>
+				</tr>
+				<tr>
+					<td>- --</td>
+					<td class="manu">- --</td>
+					<td>&nbsp;</td>
+					<td>-. --.</td>
+					<td class="manu">-. --.</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>1 2 3</td>
+					<td class="manu">1 2 3</td>
+					<td>&nbsp;</td>
+					<td>1. 2. 3.</td>
+					<td class="manu">1. 2. 3.</td>
+				</tr>
+				<tr>
+					<td>7 8 9</td>
+					<td class="manu">7 8 9</td>
+					<td>&nbsp;</td>
+					<td>7. 8. 9.</td>
+					<td class="manu">7. 8. 9.</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>+7 +8 +9</td>
+					<td class="manu">+7 +8 +9</td>
+					<td>&nbsp;</td>
+					<td>+7. +8. +9.</td>
+					<td class="manu">+7. +8. +9.</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>4 5 6</td>
+					<td class="manu">4 5 6</td>
+					<td>&nbsp;</td>
+					<td>+4 +5 +6</td>
+					<td class="manu">+4 +5 +6</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>^4 ,6</td>
+					<td class="manu">^4 ,6</td>
+					<td>&nbsp;</td>
+					<td>_4 _5 _6</td>
+					<td class="manu">_4 _5 _6</td>
+				</tr>
+			</table>
+
+			<p>Per permettere l'uso online è possibile utilizzare la lettera /s per ottenere uno spazio bianco.</p>
+
+			<h3 id="esempio">Esempio</h3>
+			<p>Un esempio di struttura di un manoscritto.</p>
+
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<th>Testo</th>
+					<th>Risultato</th>
+				</tr>
+				<tr>
+					<td>
+					<p>9----- 2<br/>
+					&nbsp;+9----.<br/>
+					_| +7---<br/>
+					| 1---.<br/>
+					|3----<br/>
+					&nbsp;------<br/>
+					3----- 8</p>
+					</td>
+					<td>
+					<p><span class="manu">9-----</span> 2<br/><span class="manu">s+9----.</span><br/><span class="manu">_| +7---</span><br/><span class="manu">| 1---.</span><br/><span class="manu">|3----</span><br/><span class="manu">s------</span><br/><span class="manu">3-----</span> 8</p>
+					</td>
+				<tr>
+			</table>
+		</article>
+	</section>
+	<footer>
+		<div>
+			<p>&copy; 2025 Michele Casanova
+		</div>
+	</footer>
+<body>
+</html>
