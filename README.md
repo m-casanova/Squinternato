@@ -1,8 +1,6 @@
 # Squinternato
 - Versione 1.000: versione iniziale
 
-Per testare il font, vedere la [pagina interattiva](https://m-casanova.github.io/Squinternato/).
-
 ## Descrizione
 ![image](images/01.jpg)
 
