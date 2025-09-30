@@ -1,4 +1,5 @@
 # Squinternato
+- Versione 1.001: aggiunta /s per ottenere uno spazio
 - Versione 1.000: versione iniziale
 
 ## Descrizione
