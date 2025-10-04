@@ -1,4 +1,5 @@
 # Squinternato
+- Versione 1.002: aggiunta /asterisk /less /greater per ottenere punto e frecce
 - Versione 1.001: aggiunta /s per ottenere uno spazio
 - Versione 1.000: versione iniziale
 
