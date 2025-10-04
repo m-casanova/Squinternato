@@ -1,7 +1,7 @@
 {
   "version":8,
   "font":{
-    "glyphsCount":103,
+    "glyphsCount":106,
     "upm":1000,
     "glyphs":[
       {
@@ -37,6 +37,63 @@
             "name":"Regular",
             "flags":0,
             "advanceWidth":652,
+            "color":"#00cce5",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"asterisk",
+        "unicode":"002a",
+        "lastModified":"2025-10-04 07:05:32",
+        "layers":[
+          {
+            "name":"ExtraBold",
+            "advanceWidth":652,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "26 355 s",
+                        "26 190  160 55  326 55 s",
+                        "491 55  626 190  626 355 s",
+                        "626 521  491 655  326 655 s",
+                        "160 655  26 521 c"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "color":"#bac000"
+          },
+          {
+            "name":"Regular",
+            "advanceWidth":652,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "176 355 s",
+                        "176 272  243 205  326 205 s",
+                        "409 205  476 272  476 355 s",
+                        "476 438  409 505  326 505 s",
+                        "243 505  176 438 c"
+                      ]
+                    }
+                  ]
+                },
+                "active":true,
+                "stroke":{
+                  "miter_limit":2
+                }
+              }
+            ],
             "color":"#00cce5",
             "active":true
           }
@@ -798,9 +855,108 @@
         ]
       },
       {
+        "name":"less",
+        "unicode":"003c",
+        "lastModified":"2025-10-04 07:22:53",
+        "layers":[
+          {
+            "name":"ExtraBold",
+            "advanceWidth":652,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "26 355",
+                        "626 55",
+                        "626 655"
+                      ]
+                    }
+                  ]
+                },
+                "active":true,
+                "stroke":{
+                  "miter_limit":2
+                }
+              }
+            ],
+            "color":"#bac000"
+          },
+          {
+            "name":"Regular",
+            "advanceWidth":652,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "176 355",
+                        "476 205",
+                        "476 505"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "color":"#00cce5",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"greater",
+        "unicode":"003e",
+        "lastModified":"2025-10-04 07:24:03",
+        "layers":[
+          {
+            "name":"ExtraBold",
+            "advanceWidth":652,
+            "elements":[
+              {
+                "component":{
+                  "glyphName":"less"
+                },
+                "transform":{
+                  "xScale":-1,
+                  "yScale":-1,
+                  "xOffset":652,
+                  "yOffset":710
+                },
+                "active":true
+              }
+            ],
+            "color":"#bac000"
+          },
+          {
+            "name":"Regular",
+            "advanceWidth":652,
+            "elements":[
+              {
+                "component":{
+                  "glyphName":"less"
+                },
+                "transform":{
+                  "xScale":-1,
+                  "yScale":-1,
+                  "xOffset":652,
+                  "yOffset":710
+                },
+                "active":true
+              }
+            ],
+            "color":"#00cce5",
+            "active":true
+          }
+        ]
+      },
+      {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -838,7 +994,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -876,7 +1032,7 @@
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -914,7 +1070,7 @@
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -933,7 +1089,7 @@
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -952,7 +1108,7 @@
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -990,7 +1146,7 @@
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1009,7 +1165,7 @@
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1066,7 +1222,7 @@
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1180,7 +1336,7 @@
       {
         "name":"U",
         "unicode":"0055",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1199,7 +1355,7 @@
       {
         "name":"V",
         "unicode":"0056",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1401,7 +1557,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1439,7 +1595,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1477,7 +1633,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1515,7 +1671,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1667,7 +1823,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1686,7 +1842,7 @@
       {
         "name":"p",
         "unicode":"0070",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1705,7 +1861,7 @@
       {
         "name":"q",
         "unicode":"0071",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1792,7 +1948,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1811,7 +1967,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1830,7 +1986,7 @@
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1849,7 +2005,7 @@
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2025-09-30 14:42:51",
+        "lastModified":"2025-10-04 13:11:07",
         "layers":[
           {
             "name":"Regular",
@@ -1906,7 +2062,7 @@
       {
         "name":"oneperiod",
         "unicode":"2488",
-        "lastModified":"2025-09-30 08:05:31",
+        "lastModified":"2025-10-04 13:08:48",
         "layers":[
           {
             "name":"ExtraBold",
@@ -1920,7 +2076,7 @@
               },
               {
                 "component":{
-                  "glyphName":"hyphen.comp.dot"
+                  "glyphName":"hyphen_period.comp"
                 }
               }
             ],
@@ -1938,7 +2094,7 @@
               },
               {
                 "component":{
-                  "glyphName":"hyphen.comp.dot"
+                  "glyphName":"hyphen_period.comp"
                 }
               }
             ],
@@ -1950,7 +2106,7 @@
       {
         "name":"twoperiod",
         "unicode":"2489",
-        "lastModified":"2025-09-30 08:05:35",
+        "lastModified":"2025-10-04 13:08:48",
         "layers":[
           {
             "name":"ExtraBold",
@@ -1964,7 +2120,7 @@
               },
               {
                 "component":{
-                  "glyphName":"hyphen.comp.dot"
+                  "glyphName":"hyphen_period.comp"
                 }
               }
             ],
@@ -1982,7 +2138,7 @@
               },
               {
                 "component":{
-                  "glyphName":"hyphen.comp.dot"
+                  "glyphName":"hyphen_period.comp"
                 }
               }
             ],
@@ -1994,7 +2150,7 @@
       {
         "name":"threeperiod",
         "unicode":"248a",
-        "lastModified":"2025-09-30 08:05:55",
+        "lastModified":"2025-10-04 13:08:48",
         "layers":[
           {
             "name":"ExtraBold",
@@ -2008,7 +2164,7 @@
               },
               {
                 "component":{
-                  "glyphName":"hyphen.comp.dot"
+                  "glyphName":"hyphen_period.comp"
                 }
               }
             ],
@@ -2026,7 +2182,7 @@
               },
               {
                 "component":{
-                  "glyphName":"hyphen.comp.dot"
+                  "glyphName":"hyphen_period.comp"
                 }
               }
             ],
@@ -2038,7 +2194,7 @@
       {
         "name":"sevenperiod",
         "unicode":"248e",
-        "lastModified":"2025-09-30 08:06:24",
+        "lastModified":"2025-10-04 13:08:48",
         "layers":[
           {
             "name":"ExtraBold",
@@ -2055,7 +2211,7 @@
               {
                 "elementData":{
                   "component":{
-                    "glyphName":"hyphen.comp.dot"
+                    "glyphName":"hyphen_period.comp"
                   }
                 }
               }
@@ -2077,7 +2233,7 @@
               {
                 "elementData":{
                   "component":{
-                    "glyphName":"hyphen.comp.dot"
+                    "glyphName":"hyphen_period.comp"
                   }
                 }
               }
@@ -2090,7 +2246,7 @@
       {
         "name":"eightperiod",
         "unicode":"248f",
-        "lastModified":"2025-09-30 08:06:06",
+        "lastModified":"2025-10-04 13:08:48",
         "layers":[
           {
             "name":"ExtraBold",
@@ -2107,7 +2263,7 @@
               {
                 "elementData":{
                   "component":{
-                    "glyphName":"hyphen.comp.dot"
+                    "glyphName":"hyphen_period.comp"
                   }
                 }
               }
@@ -2129,7 +2285,7 @@
               {
                 "elementData":{
                   "component":{
-                    "glyphName":"hyphen.comp.dot"
+                    "glyphName":"hyphen_period.comp"
                   }
                 }
               }
@@ -2142,7 +2298,7 @@
       {
         "name":"nineperiod",
         "unicode":"2490",
-        "lastModified":"2025-09-30 08:06:22",
+        "lastModified":"2025-10-04 13:08:48",
         "layers":[
           {
             "name":"ExtraBold",
@@ -2159,7 +2315,7 @@
               {
                 "elementData":{
                   "component":{
-                    "glyphName":"hyphen.comp.dot"
+                    "glyphName":"hyphen_period.comp"
                   }
                 }
               }
@@ -2181,7 +2337,7 @@
               {
                 "elementData":{
                   "component":{
-                    "glyphName":"hyphen.comp.dot"
+                    "glyphName":"hyphen_period.comp"
                   }
                 }
               }
@@ -2279,43 +2435,42 @@
         ]
       },
       {
-        "name":"hyphen.comp.dot",
-        "lastModified":"2025-09-30 08:05:17",
+        "name":"hyphen_period",
+        "lastModified":"2025-10-04 13:07:45",
         "layers":[
           {
             "name":"ExtraBold",
-            "advanceWidth":1304,
+            "advanceWidth":652,
             "elements":[
               {
                 "elementData":{
                   "contours":[
                     {
                       "nodes":[
-                        "828 475 s",
-                        "652 475 s",
-                        "586 475  532 421  532 355 s",
-                        "532 289  586 235  652 235 s",
-                        "828 235 s",
-                        "894 235  948 289  948 355 s",
-                        "948 421  894 475 c"
+                        "176 475 s",
+                        "151 475 s",
+                        "96 475  51 421  51 355 s",
+                        "51 289  96 235  151 235 s",
+                        "176 235 s",
+                        "231 235  276 289  276 355 s",
+                        "276 421  231 475 c"
                       ]
                     },
                     {
                       "nodes":[
-                        "1153 475 s",
-                        "1128 475 s",
-                        "1062 475  1008 421  1008 355 s",
-                        "1008 289  1062 235  1128 235 s",
-                        "1153 235 s",
-                        "1219 235  1273 289  1273 355 s",
-                        "1273 421  1219 475 c"
+                        "501 475 s",
+                        "476 475 s",
+                        "421 475  376 421  376 355 s",
+                        "376 289  421 235  476 235 s",
+                        "501 235 s",
+                        "556 235  601 289  601 355 s",
+                        "601 421  556 475 c"
                       ]
                     }
                   ]
                 },
                 "active":true,
                 "stroke":{
-                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -2324,31 +2479,31 @@
           },
           {
             "name":"Regular",
-            "advanceWidth":1304,
+            "advanceWidth":652,
             "elements":[
               {
                 "elementData":{
                   "contours":[
                     {
                       "nodes":[
-                        "878 415 s",
-                        "652 415 s",
-                        "619 415  592 388  592 355 s",
-                        "592 322  619 295  652 295 s",
-                        "878 295 s",
-                        "911 295  938 322  938 355 s",
-                        "938 388  911 415 c"
+                        "206 415 s",
+                        "121 415 s",
+                        "88 415  61 388  61 355 s",
+                        "61 322  88 295  121 295 s",
+                        "206 295 s",
+                        "239 295  266 322  266 355 s",
+                        "266 388  239 415 c"
                       ]
                     },
                     {
                       "nodes":[
-                        "1203 415 s",
-                        "1078 415 s",
-                        "1045 415  1018 388  1018 355 s",
-                        "1018 322  1045 295  1078 295 s",
-                        "1203 295 s",
-                        "1236 295  1263 322  1263 355 s",
-                        "1263 388  1236 415 c"
+                        "531 415 s",
+                        "446 415 s",
+                        "413 415  386 388  386 355 s",
+                        "386 322  413 295  446 295 s",
+                        "531 295 s",
+                        "564 295  591 322  591 355 s",
+                        "591 388  564 415 c"
                       ]
                     }
                   ]
@@ -2366,42 +2521,43 @@
         ]
       },
       {
-        "name":"hyphen_period",
-        "lastModified":"2025-09-30 08:05:25",
+        "name":"hyphen_period.comp",
+        "lastModified":"2025-10-04 13:08:48",
         "layers":[
           {
             "name":"ExtraBold",
-            "advanceWidth":652,
+            "advanceWidth":1304,
             "elements":[
               {
                 "elementData":{
                   "contours":[
                     {
                       "nodes":[
-                        "176 475 s",
-                        "151 475 s",
-                        "85 475  31 421  31 355 s",
-                        "31 289  85 235  151 235 s",
-                        "176 235 s",
-                        "242 235  296 289  296 355 s",
-                        "296 421  242 475 c"
+                        "828 475 s",
+                        "652 475 s",
+                        "586 475  532 421  532 355 s",
+                        "532 289  586 235  652 235 s",
+                        "828 235 s",
+                        "883 235  928 289  928 355 s",
+                        "928 421  883 475 c"
                       ]
                     },
                     {
                       "nodes":[
-                        "501 475 s",
-                        "476 475 s",
-                        "410 475  356 421  356 355 s",
-                        "356 289  410 235  476 235 s",
-                        "501 235 s",
-                        "567 235  621 289  621 355 s",
-                        "621 421  567 475 c"
+                        "1153 475 s",
+                        "1128 475 s",
+                        "1073 475  1028 421  1028 355 s",
+                        "1028 289  1073 235  1128 235 s",
+                        "1153 235 s",
+                        "1208 235  1253 289  1253 355 s",
+                        "1253 421  1208 475 c"
                       ]
                     }
                   ]
                 },
                 "active":true,
                 "stroke":{
+                  "join":"bevel",
                   "miter_limit":2
                 }
               }
@@ -2410,31 +2566,31 @@
           },
           {
             "name":"Regular",
-            "advanceWidth":652,
+            "advanceWidth":1304,
             "elements":[
               {
                 "elementData":{
                   "contours":[
                     {
                       "nodes":[
-                        "226 415 s",
-                        "101 415 s",
-                        "68 415  41 388  41 355 s",
-                        "41 322  68 295  101 295 s",
-                        "226 295 s",
-                        "259 295  286 322  286 355 s",
-                        "286 388  259 415 c"
+                        "858 415 s",
+                        "652 415 s",
+                        "619 415  592 388  592 355 s",
+                        "592 322  619 295  652 295 s",
+                        "858 295 s",
+                        "891 295  918 322  918 355 s",
+                        "918 388  891 415 c"
                       ]
                     },
                     {
                       "nodes":[
-                        "551 415 s",
-                        "426 415 s",
-                        "393 415  366 388  366 355 s",
-                        "366 322  393 295  426 295 s",
-                        "551 295 s",
-                        "584 295  611 322  611 355 s",
-                        "611 388  584 415 c"
+                        "1183 415 s",
+                        "1098 415 s",
+                        "1065 415  1038 388  1038 355 s",
+                        "1038 322  1065 295  1098 295 s",
+                        "1183 295 s",
+                        "1216 295  1243 322  1243 355 s",
+                        "1243 388  1216 415 c"
                       ]
                     }
                   ]
@@ -3392,7 +3548,7 @@
       },
       {
         "name":"sevenperiod.lig",
-        "lastModified":"2025-09-30 08:06:24",
+        "lastModified":"2025-10-04 13:08:48",
         "layers":[
           {
             "name":"ExtraBold",
@@ -3435,7 +3591,7 @@
       },
       {
         "name":"eightperiod.lig",
-        "lastModified":"2025-09-30 08:06:06",
+        "lastModified":"2025-10-04 13:08:48",
         "layers":[
           {
             "name":"ExtraBold",
@@ -3478,7 +3634,7 @@
       },
       {
         "name":"nineperiod.lig",
-        "lastModified":"2025-09-30 08:06:22",
+        "lastModified":"2025-10-04 13:08:48",
         "layers":[
           {
             "name":"ExtraBold",
@@ -3670,11 +3826,11 @@
     ],
     "openTypeFeatures":[
       {
-        "feature":"languagesystem DFLT dflt;\nlanguagesystem latn dflt;\n"
+        "feature":"#/> classes\n#/> otclasses\n@dotted0 = [one two three seven eight nine seven.lig eight.lig nine.lig];\n@dotted1 = [oneperiod twoperiod threeperiod sevenperiod eightperiod nineperiod sevenperiod.lig eightperiod.lig nineperiod.lig];\n#/< otclasses\n#/< classes\n\nlanguagesystem DFLT dflt;\nlanguagesystem latn dflt;\n\n"
       },
       {
         "name":"ccmp",
-        "feature":"feature ccmp {\n sub bar by five;\n sub slash by seven;\n sub backslash by one;\n\n sub hyphen period by hyphen_period;\n rsub hyphen' hyphen_period by hyphen_period;\n\n sub asciicircum four by four_asciicircum;\n sub plus four by four_plus;\n sub underscore four by four_underscore;\n\n sub plus five by five_plus;\n sub underscore five by five_underscore;\n\n sub plus six by six_plus;\n sub underscore six by six_underscore;\n sub comma six by sixcomma;\n\n sub plus nine period by nineperiod.lig;\n sub plus eight period by eightperiod.lig;\n sub plus seven period by sevenperiod.lig;\n\n sub plus nine by nine.lig;\n sub plus eight by eight.lig;\n sub plus seven by seven.lig;\n\n sub nine period by nineperiod;\n sub eight period by eightperiod;\n sub seven period by sevenperiod;\n\n sub three period by threeperiod;\n sub two period by twoperiod;\n sub one period by oneperiod;\n\n sub @dotted0' hyphen_period by @dotted1;\n\n} ccmp;\n"
+        "feature":"feature ccmp {\n sub bar by five;\n sub slash by seven;\n sub backslash by one;\n\n sub hyphen period by hyphen_period;\n rsub hyphen' hyphen_period by hyphen_period;\n\n sub asciicircum four by four_asciicircum;\n sub plus four by four_plus;\n sub underscore four by four_underscore;\n\n sub plus five by five_plus;\n sub underscore five by five_underscore;\n\n sub plus six by six_plus;\n sub underscore six by six_underscore;\n sub comma six by sixcomma;\n\n sub plus nine period by nineperiod.lig;\n sub plus eight period by eightperiod.lig;\n sub plus seven period by sevenperiod.lig;\n\n sub plus nine by nine.lig;\n sub plus eight by eight.lig;\n sub plus seven by seven.lig;\n\n sub nine period by nineperiod;\n sub eight period by eightperiod;\n sub seven period by sevenperiod;\n\n sub three period by threeperiod;\n sub two period by twoperiod;\n sub one period by oneperiod;\n\n sub @dotted0' hyphen_period by @dotted1;\n\n} ccmp;\n\n"
       }
     ],
     "hinting":{
@@ -3686,13 +3842,13 @@
     "info":{
       "tfn":"Squinternato",
       "sgn":"Squinternato",
-      "creationDate":"2025/09/29 23:00:00",
+      "creationDate":"2025/10/03 23:00:00",
       "copyright":"(c) 2025 Michele Casanova",
       "license":"This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/",
       "licenseURL":"https://openfontlicense.org/",
       "versionMajor":1,
-      "versionMinor":1,
-      "version":"Version 1.001",
+      "versionMinor":3,
+      "version":"Version 1.003",
       "codepageRange":"0000000000000000",
       "unicodeRange":"00000000000000000000000000000000",
       "embedding":"0000"
@@ -3869,6 +4025,7 @@
         }
       }
     ],
+    "searchStorage":"",
     "expressionsUpdated":true
   }
 }
